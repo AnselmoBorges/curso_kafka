@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c537aa3-9eec-4978-9fe6-00bc4b07d7c5" name="Default Changelist" comment="" />
+    <list default="true" id="3c537aa3-9eec-4978-9fe6-00bc4b07d7c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/tutorial1/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WAhBSOR1biK0H6YjhXyILBlbpG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -36,7 +47,7 @@
       <recent name="com.github.anselmoborges.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoComCallback">
+  <component name="RunManager" selected="Application.ProducerDemoKeys">
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.anselmoborges.kafka.tutorial1.ProducerDemo" />
       <module name="kafka-beginners-course" />
@@ -63,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anselmoborges.kafka.tutorial1.ProducerDemoKeys" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.anselmoborges.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ProducerDemoComCallback" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
@@ -96,29 +121,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1578604299444">
+    <state x="487" y="27" width="936" height="708" key="CommitChangelistDialog2" timestamp="1578606463128">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578604299444" />
-    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1578604299444">
+    <state x="487" y="27" width="936" height="708" key="CommitChangelistDialog2/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606463128" />
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1578606196671">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.center/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578604299444" />
-    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1578604299443">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606196671" />
+    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1578606196670">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.left/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578604299443" />
-    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1578604299444">
+    <state width="1874" height="273" key="GridCell.Tab.0.center/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606196670" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1578606196670">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.right/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578604299444" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606196670" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1578606196670">
+      <screen x="0" y="27" width="1920" height="708" />
+    </state>
+    <state width="1874" height="273" key="GridCell.Tab.0.right/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606196670" />
     <state x="449" y="27" width="1012" height="708" key="SettingsEditor" timestamp="1578604141361">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
     <state x="449" y="27" width="1012" height="708" key="SettingsEditor/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578604141361" />
-    <state x="789" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1578598206970">
+    <state x="4075" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1578605106219">
+      <screen x="3286" y="0" width="1920" height="1080" />
+    </state>
+    <state x="4075" y="328" key="com.intellij.ide.util.TipDialog/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578605106219" />
+    <state x="732" y="443" width="455" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578606468419">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state x="789" y="242" key="com.intellij.ide.util.TipDialog/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578598206970" />
+    <state x="732" y="443" width="455" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606468419" />
   </component>
 </project>
