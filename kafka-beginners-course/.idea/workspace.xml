@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c537aa3-9eec-4978-9fe6-00bc4b07d7c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/twitter/TwitterProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/anselmoborges/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anselmoborges/kafka/tutorial1/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anselmoborges/kafka/tutorial1/ProducerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anselmoborges/kafka/tutorial1/ProducerDemoComCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anselmoborges/kafka/tutorial1/ProducerDemoComCallback$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/anselmoborges/kafka/tutorial1/ProducerDemoComCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/anselmoborges/kafka/tutorial1/ProducerDemoComCallback.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <recent name="com.github.anselmoborges.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoKeys">
+  <component name="RunManager" selected="Application.TwitterProducer">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.anselmoborges.kafka.tutorial1.ConsumerDemo" />
       <module name="kafka-beginners-course" />
@@ -102,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.anselmoborges.kafka.twitter.TwitterProducer" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.anselmoborges.kafka.twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterProducer" />
         <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoComCallback" />
@@ -153,22 +165,22 @@
       <screen x="0" y="27" width="1920" height="708" />
     </state>
     <state x="487" y="27" width="936" height="708" key="CommitChangelistDialog2/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578606487111" />
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1578608886234">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1578694046375">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578608886234" />
-    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1578608886234">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578694046375" />
+    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1578694046375">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.center/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578608886234" />
-    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1578608886234">
+    <state width="1874" height="273" key="GridCell.Tab.0.center/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578694046375" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1578694046375">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.left/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578608886234" />
-    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1578608886234">
+    <state width="1874" height="273" key="GridCell.Tab.0.left/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578694046375" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1578694046375">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.right/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578608886234" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right/3286.0.1920.1080/1920.0.1366.768/0.27.1920.708@0.27.1920.708" timestamp="1578694046375" />
     <state x="449" y="27" width="1012" height="708" key="SettingsEditor" timestamp="1578604141361">
       <screen x="0" y="27" width="1920" height="708" />
     </state>
